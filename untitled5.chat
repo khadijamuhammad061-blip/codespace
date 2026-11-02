@@ -1,0 +1,45 @@
+{
+  "messages": [
+    {
+      "metadata": {
+        "model": {
+          "settings": {},
+          "id": null
+        },
+        "settings": {},
+        "to_persona": "jupyter-ai-personas::jupyter_ai::JupyternautPersona"
+      },
+      "id": "972d0170-9c2d-4fe6-aa78-c3b8a112eb8e",
+      "raw_time": false,
+      "type": "msg",
+      "time": 1793638123.6620157,
+      "body": "Plot uk_viewers (y-axis) against first_aired (x-axis). Color the points by factor(holiday).",
+      "sender": "8a2d63874f43422fafc9a1d0acb5cc8e"
+    }
+  ],
+  "users": {
+    "8a2d63874f43422fafc9a1d0acb5cc8e": {
+      "color": "var(--jp-collaborator-color7)",
+      "initials": "AE",
+      "username": "8a2d63874f43422fafc9a1d0acb5cc8e",
+      "display_name": "Anonymous Eukelade",
+      "name": "Anonymous Eukelade",
+      "avatar_url": null,
+      "mention_name": "Anonymous-Eukelade",
+      "bot": false
+    },
+    "hidden::jupyter_ai_system": {
+      "avatar_url": null,
+      "bot": true,
+      "color": null,
+      "initials": null,
+      "name": "System",
+      "username": "hidden::jupyter_ai_system",
+      "display_name": "System"
+    }
+  },
+  "attachments": {},
+  "metadata": {
+    "id": "71114bf7-9ec2-4b1a-9b8a-d77750b233fa"
+  }
+}

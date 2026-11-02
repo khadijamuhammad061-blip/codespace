@@ -1,23 +1,51 @@
 {
-  "messages": [],
+  "messages": [
+    {
+      "type": "msg",
+      "body": "",
+      "sender": "8a2d63874f43422fafc9a1d0acb5cc8e",
+      "id": "767d7940-f95c-4af5-b9d8-adb4f5b02387",
+      "time": 1793638097.6585062,
+      "metadata": {
+        "to_persona": "jupyter-ai-personas::jupyter_ai::JupyternautPersona",
+        "settings": {},
+        "model": {
+          "settings": {},
+          "id": null
+        }
+      },
+      "deleted": true,
+      "raw_time": false
+    }
+  ],
   "users": {
     "hidden::jupyter_ai_system": {
-      "bot": true,
       "name": "System",
-      "username": "hidden::jupyter_ai_system",
-      "initials": null,
       "display_name": "System",
-      "avatar_url": null,
-      "color": null
+      "initials": null,
+      "color": null,
+      "bot": true,
+      "username": "hidden::jupyter_ai_system",
+      "avatar_url": null
+    },
+    "8a2d63874f43422fafc9a1d0acb5cc8e": {
+      "initials": "AE",
+      "mention_name": "Anonymous-Eukelade",
+      "color": "var(--jp-collaborator-color7)",
+      "name": "Anonymous Eukelade",
+      "username": "8a2d63874f43422fafc9a1d0acb5cc8e",
+      "display_name": "Anonymous Eukelade",
+      "bot": false,
+      "avatar_url": null
     },
     "jupyter-ai-personas::jupyter_ai_acp_client::CopilotAcpPersona": {
+      "avatar_url": "/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3ACopilotAcpPersona",
+      "initials": null,
+      "name": "Copilot",
       "username": "jupyter-ai-personas::jupyter_ai_acp_client::CopilotAcpPersona",
       "color": null,
       "display_name": "Copilot",
-      "bot": true,
-      "avatar_url": "/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3ACopilotAcpPersona",
-      "initials": null,
-      "name": "Copilot"
+      "bot": true
     }
   },
   "attachments": {},
