@@ -1,0 +1,27 @@
+{
+  "messages": [],
+  "users": {
+    "hidden::jupyter_ai_system": {
+      "bot": true,
+      "name": "System",
+      "username": "hidden::jupyter_ai_system",
+      "initials": null,
+      "display_name": "System",
+      "avatar_url": null,
+      "color": null
+    },
+    "jupyter-ai-personas::jupyter_ai_acp_client::CopilotAcpPersona": {
+      "username": "jupyter-ai-personas::jupyter_ai_acp_client::CopilotAcpPersona",
+      "color": null,
+      "display_name": "Copilot",
+      "bot": true,
+      "avatar_url": "/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3ACopilotAcpPersona",
+      "initials": null,
+      "name": "Copilot"
+    }
+  },
+  "attachments": {},
+  "metadata": {
+    "id": "5360ae9c-4130-471e-a0cb-5cc0dd2e7a43"
+  }
+}
