@@ -1,41 +1,41 @@
 {
   "messages": [
     {
-      "body": "Plot uk_viewers (y-axis) against first_aired (x-axis). Color the points by factor(holiday).",
+      "type": "msg",
+      "raw_time": false,
+      "time": 1793638123.6620157,
       "metadata": {
-        "to_persona": "jupyter-ai-personas::jupyter_ai::JupyternautPersona",
         "model": {
           "id": null,
           "settings": {}
         },
-        "settings": {}
+        "settings": {},
+        "to_persona": "jupyter-ai-personas::jupyter_ai::JupyternautPersona"
       },
-      "type": "msg",
-      "raw_time": false,
-      "time": 1793638123.6620157,
-      "id": "972d0170-9c2d-4fe6-aa78-c3b8a112eb8e",
-      "sender": "8a2d63874f43422fafc9a1d0acb5cc8e"
+      "sender": "8a2d63874f43422fafc9a1d0acb5cc8e",
+      "body": "Plot uk_viewers (y-axis) against first_aired (x-axis). Color the points by factor(holiday).",
+      "id": "972d0170-9c2d-4fe6-aa78-c3b8a112eb8e"
     }
   ],
   "users": {
     "hidden::jupyter_ai_system": {
-      "name": "System",
-      "display_name": "System",
       "color": null,
+      "display_name": "System",
+      "avatar_url": null,
       "bot": true,
       "username": "hidden::jupyter_ai_system",
-      "initials": null,
-      "avatar_url": null
+      "name": "System",
+      "initials": null
     },
     "8a2d63874f43422fafc9a1d0acb5cc8e": {
-      "name": "Anonymous Eukelade",
-      "username": "8a2d63874f43422fafc9a1d0acb5cc8e",
-      "bot": false,
-      "color": "var(--jp-collaborator-color7)",
       "initials": "AE",
+      "username": "8a2d63874f43422fafc9a1d0acb5cc8e",
+      "avatar_url": null,
       "display_name": "Anonymous Eukelade",
       "mention_name": "Anonymous-Eukelade",
-      "avatar_url": null
+      "name": "Anonymous Eukelade",
+      "bot": false,
+      "color": "var(--jp-collaborator-color7)"
     }
   },
   "attachments": {},
