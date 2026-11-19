@@ -2,40 +2,49 @@
   "messages": [
     {
       "type": "msg",
-      "raw_time": false,
-      "time": 1793638123.6620157,
+      "sender": "8a2d63874f43422fafc9a1d0acb5cc8e",
       "metadata": {
         "model": {
-          "id": null,
-          "settings": {}
+          "settings": {},
+          "id": null
         },
         "settings": {},
         "to_persona": "jupyter-ai-personas::jupyter_ai::JupyternautPersona"
       },
-      "sender": "8a2d63874f43422fafc9a1d0acb5cc8e",
-      "body": "Plot uk_viewers (y-axis) against first_aired (x-axis). Color the points by factor(holiday).",
-      "id": "972d0170-9c2d-4fe6-aa78-c3b8a112eb8e"
+      "id": "972d0170-9c2d-4fe6-aa78-c3b8a112eb8e",
+      "time": 1793638123.6620157,
+      "raw_time": false,
+      "body": "Plot uk_viewers (y-axis) against first_aired (x-axis). Color the points by factor(holiday)."
     }
   ],
   "users": {
-    "hidden::jupyter_ai_system": {
-      "color": null,
-      "display_name": "System",
-      "avatar_url": null,
+    "jupyter-ai-personas::jupyter_ai_acp_client::CopilotAcpPersona": {
       "bot": true,
-      "username": "hidden::jupyter_ai_system",
-      "name": "System",
-      "initials": null
+      "display_name": "Copilot",
+      "name": "Copilot",
+      "color": null,
+      "initials": null,
+      "username": "jupyter-ai-personas::jupyter_ai_acp_client::CopilotAcpPersona",
+      "avatar_url": "/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3ACopilotAcpPersona"
     },
     "8a2d63874f43422fafc9a1d0acb5cc8e": {
-      "initials": "AE",
       "username": "8a2d63874f43422fafc9a1d0acb5cc8e",
       "avatar_url": null,
-      "display_name": "Anonymous Eukelade",
-      "mention_name": "Anonymous-Eukelade",
+      "color": "var(--jp-collaborator-color7)",
+      "initials": "AE",
       "name": "Anonymous Eukelade",
+      "mention_name": "Anonymous-Eukelade",
       "bot": false,
-      "color": "var(--jp-collaborator-color7)"
+      "display_name": "Anonymous Eukelade"
+    },
+    "hidden::jupyter_ai_system": {
+      "username": "hidden::jupyter_ai_system",
+      "bot": true,
+      "name": "System",
+      "avatar_url": null,
+      "initials": null,
+      "display_name": "System",
+      "color": null
     }
   },
   "attachments": {},
